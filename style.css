@@ -1,8 +1,15 @@
 body {
     background-color: #0091AD;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    border: 3px solid darkred;
+  }
 
 
 .pizza {
@@ -21,12 +28,12 @@ body {
 
 .medium_pizza{
     background-color: #455E89;
-    flex: 1.5
+    flex: 1
 }
 
 .large_pizza{
     background-color: #723C70;
-    flex: 2
+    flex: 1
 }
 
 .small_pizza{
@@ -37,6 +44,18 @@ body {
 
 .contact_us{
     background-color: #B7094C;
+    padding: 1em;
+    border: 5px solid;
+    margin: 1em;
+    border-radius: 1em;    
+}
+
+.center_contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    border: 3px solid darkred
 }
 
 
